@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Aca agregamos bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Ar. Design</title>
+</head>
+<body>
+    
+    <div class="container">
+
+        <header>
+          <!-- text center: centra el contenido con bootstrap 
+          bg:backgroundcolor p:paddind text-white: texto en blanco -->
+            <p class="text-center bg-primary p-3 text-white m-0">Contactenos al 0223-453425 - Av San Martín 2433 - Rosario</p>
+        <!-- Para crear una barra de menu, bootstrap es navbar -->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Ar. Design</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#servicios">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Correo Electrónico" aria-label="Search">
+                      <button class="btn btn-outline-primary" type="submit">Suscríbete</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+
+<!-- CAROUSEL: seccion de imagenes en la parte principal de la pagina -->
+              <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <!-- AGREGAMOS UN DATA-BS-INTERVAL PARA QUE CADA 3SEG CAMBIE SOLO -->
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="./imagenes/slide1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./imagenes/slide2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./imagenes/slide3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="3000">
+                    <img src="./imagenes/Slide4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+        </header>
+
+        <main>
+
+            <!-- Intro de Servicios -->
+            <section class="row justify-content-center  p-5 text-center mt-3" id="servicios">
+                <div class="col-12 col-md-7">
+                    <h1 class="p-3 fs-2 border-top">Una propuesta diferente para Renovar tu Espacio</h1>
+                    <p class="p-3 fs-4">Ar. Design ha si distinguida con una <span class="text-primary"> Mención Especial </span> en la última edición de los IX Premios a la Decoración e Interiorismo</p>
+
+                </div>
+
+
+
+
+            </section>
+
+
+            <!-- Presentar los servicios -->
+            <section class="row justify-content-around">
+                <div class="col-12 col-lg-4 d-flex m-4">
+                    <img src="./imagenes/dibu1.jpg" alt="" width="230" height="220">
+                    <div>
+                        <h3  class="fs-5 mt-4 px-4 pb-1">Funcionalidad</h3>
+                        <p class="px-4">Prestamos especial atención a la funcionalidad ambiental</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 d-flex m-4">
+                    <img src="./imagenes/dibu2.png" alt="" width="230" height="220">
+                    <div>
+                        <h3  class="fs-5 mt-4 px-4 pb-1">Funcionalidad</h3>
+                        <p class="px-4">Prestamos especial atención a la funcionalidad ambiental</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 d-flex m-4">
+                    <img src="./imagenes/dibu3.png" alt="" width="230" height="220">
+                    <div>
+                        <h3  class="fs-5 mt-4 px-4 pb-1">Funcionalidad</h3>
+                        <p class="px-4">Prestamos especial atención a la funcionalidad ambiental</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 d-flex m-4">
+                    <img src="./imagenes/dibu4.png" alt="" width="230" height="220">
+                    <div>
+                        <h3  class="fs-5 mt-4 px-4 pb-1">Funcionalidad</h3>
+                        <p class="px-4">Prestamos especial atención a la funcionalidad ambiental</p>
+                    </div>
+                </div>
+
+
+
+            </section>
+
+            <br>
+            <!-- Nosotros -->
+            <section class="row justify-content-center mt-5" style="background-color: 
+            rgb(240, 240, 240);" id="nosotros">
+                <div class="col-12 col-md-7 py-5 text-center">
+                        <h2 class="fs-3 mb-5">Un equipo pequeño para lograr <span class="text-primary">Grandes Resultados!</span> </h2>
+
+                        <p class="fs-5 mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptate at sapiente cupiditate cumque rem repudiandae commodi ullam natus saepe nostrum doloremque aperiam tempora, veritatis quod alias velit dolor expedita?</p>
+
+                        <div>
+                            <img src="./imagenes/equipos/equipo2.jpg"  alt="" class="w-100 mt-3">
+                        </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+            <div class="row justify-content-center mt-5" id="contacto">
+                <div class="col-10 col-md-6 col-lg-5 border-top border-bottom" style="background-color: rgb(252, 253,253 ); border-radius: 5%;">
+
+                    <form>
+                        <div class="mb-4 text-center">
+                            <img src="./imagenes/support.png" class="w-100" alt="">
+                            <h3 class="mt-4">Contáctenos</h3>
+                            <p>Estamos aquí para hacer realidad tus proyectos</p>
+                        </div>
+
+
+
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-text">Coloque su email aquí!</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="nombre@dominio.com">
+                        </div>
+                        <div class="mb-3">
+                          <label for="nombre" class="form-text">Su nombre es?</label>
+                          <input type="text" class="form-control" id="nombre" placeholder="Juan Perez">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-text">Movil o de Línea</label>
+                            <input type="text" class="form-control" id="telefono" placeholder="11 9999 9999">
+                        </div>
+  
+                        <div class="mb-3">
+                            <label for="comentario" class="form-text">Movil o de Línea</label>
+                            <textarea name="" class="form-control"  id="comentario" cols="30" rows="3" placeholder="Comentario..."></textarea>
+                        </div>
+
+
+                        <div class="mx-5 my-4 w-70">
+                          <button type="submit" class="btn btn-primary fs-5 w-100">Enviar</button>
+                        </div>  
+                      </form>                    
+
+                </div>
+
+                <div class="mt-4 text-white" style="background-color: rgb(34, 34, 108);">
+                    <p class="text-center py-4 my-0">Ar. Design &copy; Todos los Derechos Reservados 2023 </p>
+
+                </div>
+
+
+            </div>
+
+
+
+
+        </footer>
+
+
+
+
+
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
